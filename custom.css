@@ -1,0 +1,111 @@
+.slider {
+  width: 500px;
+  margin-top: 10px;
+
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul li {
+  float: left;
+}
+
+.slider li {
+  display: none;
+}
+
+.clear {
+  clear: both;
+}
+.nagivation {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.nagivation li a.active {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid black;
+}
+
+.nagivation li a {
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+  background-color: white;
+  color: rgb(17, 17, 17);
+  border-radius: 100%;
+}
+.nagivation li a:hover {
+  background-color: rgb(234, 230, 230);
+  color: rgb(173, 168, 168);
+}
+
+.slider-content {
+  position: relative;
+
+}
+.nagivation-btn {
+  position: absolute;
+  display: block;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #000;
+  background-color: lavender;
+  border-radius: 100%;
+}
+
+.nagivation-btn:hover {
+  background-color: gray;
+  transition: 0.7s all;
+  color: #fff;
+}
+
+#prev {
+  font-size: 14px;
+  left: 50px;
+  top: 130px;
+}
+#next {
+  font-size: 14px;
+  left: 476px;
+  top: 130px;
+}
+/* slider kodları bitişi */
+
+.forum {
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-left: 35px;
+  width: 460px;
+  font-family: "Times New Roman";
+}
+
+/* yıldıız */
+.rate > input {
+  position: absolute;
+  opacity: 0;
+}
+
+h4 {
+  text-align: center;
+  font-family: Segoe UI;
+  color:darkgreen;
+}
+
+.artic {
+  font-family:  Helvetica;
+  height: 625px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 150px;
+  background: #f8d7da;
+}
+table {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}

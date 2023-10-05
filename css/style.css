@@ -1,0 +1,33 @@
+h1 {
+  color: black;
+  text-align: center;
+  font-family: Constantia;
+}
+
+table {
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 5px 5px;
+  border-collapse: collapse;
+}
+S td {
+  font-family: Helvetica;
+  font-size: 18px;
+  color: black;
+  border: 2px;
+}
+
+input {
+  color: rgb(26, 11, 4);
+  font-weight: bold;
+  background: floralwhite;
+  margin-right: 8px;
+}
+
+button {
+  background-color: black;
+  border-radius: 4px;
+  background-color: edf2fb;
+  color: brown;
+  text-align: center;
+}
